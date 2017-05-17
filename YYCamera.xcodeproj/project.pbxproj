@@ -43,6 +43,8 @@
 		59C3DA661D8112DE001F34D2 /* YYCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C3DA651D8112DE001F34D2 /* YYCameraViewController.m */; };
 		59C3DA681D8112EA001F34D2 /* YYCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59C3DA671D8112EA001F34D2 /* YYCameraViewController.xib */; };
 		9759959E1ECC53E300B9787A /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9759959D1ECC53E300B9787A /* demo.gif */; };
+		975995A11ECC5A0800B9787A /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9759959F1ECC5A0800B9787A /* demo1.png */; };
+		975995A21ECC5A0800B9787A /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 975995A01ECC5A0800B9787A /* demo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +97,8 @@
 		59C3DA651D8112DE001F34D2 /* YYCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCameraViewController.m; sourceTree = "<group>"; };
 		59C3DA671D8112EA001F34D2 /* YYCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYCameraViewController.xib; sourceTree = "<group>"; };
 		9759959D1ECC53E300B9787A /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		9759959F1ECC5A0800B9787A /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		975995A01ECC5A0800B9787A /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 		14B67A2E1DC9D947007B5644 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				9759959F1ECC5A0800B9787A /* demo1.png */,
+				975995A01ECC5A0800B9787A /* demo2.png */,
 				9759959D1ECC53E300B9787A /* demo.gif */,
 			);
 			path = demo;
@@ -357,6 +363,8 @@
 				590F519E1D8286BD00B30AD5 /* smile.png in Resources */,
 				14B67A241DC9C9FD007B5644 /* jiantou@3x.png in Resources */,
 				590F519A1D8286BD00B30AD5 /* bag.png in Resources */,
+				975995A21ECC5A0800B9787A /* demo2.png in Resources */,
+				975995A11ECC5A0800B9787A /* demo1.png in Resources */,
 				14B67A231DC9C9FD007B5644 /* jiantou@2x.png in Resources */,
 				590F519C1D8286BD00B30AD5 /* fruit.png in Resources */,
 				59B502B91D7D4B75007DC0E6 /* Assets.xcassets in Resources */,
