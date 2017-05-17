@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StickerIdentifier" id="9ae-cs-QmQ">
+            <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="elephant.png" translatesAutoresizingMaskIntoConstraints="NO" id="MCI-zw-cNA">
+                        <rect key="frame" x="10" y="10" width="90" height="90"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="MCI-zw-cNA" secondAttribute="trailing" constant="10" id="0Vm-qz-0Hz"/>
+                <constraint firstItem="MCI-zw-cNA" firstAttribute="leading" secondItem="9ae-cs-QmQ" secondAttribute="leading" constant="10" id="GPf-da-9Fs"/>
+                <constraint firstItem="MCI-zw-cNA" firstAttribute="top" secondItem="9ae-cs-QmQ" secondAttribute="top" constant="10" id="iDr-34-zxk"/>
+                <constraint firstAttribute="bottom" secondItem="MCI-zw-cNA" secondAttribute="bottom" constant="10" id="v8J-QJ-ahO"/>
+            </constraints>
+            <point key="canvasLocation" x="29" y="20"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="elephant.png" width="128" height="128"/>
+    </resources>
+</document>
